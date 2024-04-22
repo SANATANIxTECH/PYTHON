@@ -10,7 +10,7 @@ from ...modules.helpers.inline import *
 from ...modules.helpers.wrapper import *
 
 
-@app.on_message(cdx(["help"]))
+@app.on_message(cdx(["menu"]))
 @sudo_users_only
 async def inline_help_menu(client, message):
     image = None
@@ -57,12 +57,12 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
 **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
-sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+@ll_4st_MIND_GAMER_II ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
  
 ❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
 ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️.
  
-🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [ ᴜᴘᴅᴀᴛᴇ ](https://t.me/SHIVANSH474) 🌹**
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [ 😻 #𝙵𝙴𝙴𝙻_𝙼𝙴 👻 ](https://t.me/II_4ST_READY_FOR_FUCKING_II) 🌹**
 """
     
     if plug_match:
