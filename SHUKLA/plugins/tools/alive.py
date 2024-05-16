@@ -59,8 +59,8 @@ async def ping(client: Client, message: Message):
     await message.delete()
     await r.edit(
         f" [ 😻 #𝚄𝚁_𝙳𝙰𝙳𝙳𝚈_4𝚂𝚃_𝙷𝙴𝚁𝙴 👻 ](https://t.me/II_4ST_READY_FOR_FUCKING_II) \n\n"
-        f"💞𝐏ɪɴɢ  ⁂ {ping * 1000:.3f}ᴍs\n"
-        f"💕𝐔ᴘᴛɪᴍᴇ  ⁂ {uptime}\n"
+        f"💞‌🇵𝐈𝐍𝐆  ⁂ {ping * 1000:.3f}ᴍs\n"
+        f"💕‌🇫𝐔𝐂𝐊-𝐓𝐘𝐌  ⁂ {uptime}\n"
         f"👑‌🇴𝐖𝐍𝐄𝐑💗 ⁂ {client.me.mention}\n"
               )
 @app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
