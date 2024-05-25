@@ -441,7 +441,7 @@ GROUP = [-1001778120979, -1002006121442]
 
 VERIFIED_USERS = [6919199044, 6762113050]
 
-Owners = "@SHIVANSH39"
+Owners = "@oye_mindgamer"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
