@@ -28,14 +28,14 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002052344019"))
-OWNER_ID = int(getenv("OWNER_ID", "5655278269"))
-OWNER_USERNAME = getenv("OWNER_USERNAME", None)
+API_ID = getenv("API_ID", "28795512")
+API_HASH = getenv("API_HASH", "c17e4eb6d994c9892b8a8b6bfea4042a")
+BOT_TOKEN = getenv("BOT_TOKEN", "6827959192:AAHUPK9y3_b73VMWEBb9G1fyLV--vLGwT9k")
+STRING_SESSION = getenv("STRING_SESSION", "BQG3YngAJ1bLNxBXazQBdbPs6Ja4DaBbLWJOjMh3kOuCpCDMUlEUmi7RNB-pp2r3TRQe5eBHcpDCmPqzpyHLgmGwFCSYVVGssyewWPNuERdXlYpSLRVFY5mwVaARUTcLr8v22tQ9UVfmysM4PRUIHT6qtpP0hPCz3OtxRQGdEsV4rakbrTb3EKrOT-2xFTth_HsfFEJSYwiaroiYPGqdr1MgtiIhorNVH5UhXySBR3PGSBSt4-MN2beKfjX3DCESed_zmYFd71rkMDqwWCjTPUxn3kJ06LNLagTZKOd4BPrxSYEMSWGtOVy6lysBq9Tk4VDV0SXZixWUrbV2Mbl9u-0W5lCPfgAAAAGoGvphAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1001970127211")
+OWNER_ID = getenv("OWNER_ID", "5959548791")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "V_VIP_OWNER")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5655278269").split()))
 ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg")
 
