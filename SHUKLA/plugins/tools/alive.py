@@ -29,7 +29,7 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-@app.on_message(cdz(["alive"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["isalive"])  & (filters.me | filters.user(SUDO_USER)))
 async def alive(client: Client, message: Message):
     r = await message.reply_text("** #𝙵𝙴𝙴𝙻_4𝚂𝚃 **")
     start = time()
@@ -48,7 +48,7 @@ async def alive(client: Client, message: Message):
         f"👑‌🇴𝐖𝐍𝐄𝐑💗 ⁂ {client.me.mention}"    
     )
 
-@app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["isping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
     r = await message.reply_text("** #𝙵𝙴𝙴𝙻_4𝚂𝚃**")
     start = time()
@@ -63,7 +63,7 @@ async def ping(client: Client, message: Message):
         f"‌‌👑🇸𝐔𝐏𝐄𝐑 ‌🇴𝐖𝐍𝐄𝐑 💕  ⁂ {client.me.mention}\n"
         f"⚡🇹𝐈𝐌𝐄 🔥 ⁂ {uptime}\n"
               )
-@app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["isrepo"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
     r = await message.reply_text("**𝐑ᴇᴘᴏ**")
     start = time()
